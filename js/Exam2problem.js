@@ -145,7 +145,7 @@ function DeleteCategory()
     objRequest4.open("GET", deleteURL, true);
     objRequest4.send();
     
-    document.getElementById("deleteCatButton").style.visibility = "hidden";
+    
 }
 
 
@@ -164,17 +164,7 @@ function DeleteCategory()
     
     }
     
-function DeleteMenu()
-{
-    if (document.getElementById("delmenu").value == "Yes")
-    {
-       document.getElementById("deleteCatButton").style.visibility = "visible";
-    }
-    else
-    {
-        document.getElementById("deleteCatButton").style.visibility = "hidden";
-    }
-}
+
 function SelectSection()
 {
     if (document.getElementById("selection").value == "Display Section 1")
